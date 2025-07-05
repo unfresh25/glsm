@@ -1,7 +1,3 @@
----
-output: github_document
----
-
 # glsm
 
 `glsm` implements Generalized Logistic Saturated Models for categorical outcomes with > 2 levels.  
