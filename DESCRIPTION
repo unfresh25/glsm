@@ -1,0 +1,23 @@
+Package: glsm
+Title: Generalized Logistic Saturated Models
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Jorge", family = "Borja", email = "jorgeborja48@gmail.com", role = c("aut", "cre")),
+    person(given = "Humberto", family = "Llinás", email = "hllinas@uninorte.edu.co",role = "aut"),
+    person(given = "Jorge", family = "Villalba", role = "aut"),
+    person(given = "Jorge", family = "Tilano", role = "aut"))
+Description: Implements generalized logistic saturated models (GLSM) with
+    support for saturated likelihood, deviance tests, predictions and visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    stats
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
