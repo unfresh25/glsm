@@ -7,7 +7,7 @@ It includes fitting, prediction, confidence intervals, deviance tests and plots.
 
 ```r
 # Not yet on CRAN, install from GitHub:
-# devtools::install_github("tu_usuario/glsm")
+# devtools::install_github("unfresh25/glsm")
 ```
 
 ## Example
